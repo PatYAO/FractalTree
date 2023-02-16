@@ -36,12 +36,12 @@ public void drawBranches(int x,int y, double branchLength, double angle)
    b = (int)(Math.random() * 256);
   stroke(r,g,b);
   if(branchLength > smallestBranch){
-    drawBranches(endX1,endY1,branchLength,angle1 + (Math.random())/2);
+    drawBranches(endX1,endY1,branchLength,angle1 + (Math.random())/3);
      g = (int)(Math.random() * 256);
      r = (int)(Math.random() * 256);
      b = (int)(Math.random() * 256);
     stroke(r,g,b);
-    drawBranches(endX2,endY2,branchLength,angle2 - (Math.random())/2);
+    drawBranches(endX2,endY2,branchLength,angle2 - (Math.random())/3);
      g = (int)(Math.random() * 256);
      r = (int)(Math.random() * 256);
      b = (int)(Math.random() * 256);
